@@ -24,3 +24,8 @@ Flex Stable Coin (FSC) Engine is a decentralized and algorithmic stablecoin syst
 4. **Liquidation Mechanism**  
    If a user’s **health factor falls below 1**, their collateral can be **liquidated at a 10% discount**, ensuring protocol stability.
 
+### Security Measures
+
+1. **OracleLib:** Fetches accurate price data to prevent manipulation.
+2. **Reentrancy Protection:** Prevents common Solidity attack vectors.
+3. **Health Factor Monitoring:** Ensures users remain over-collateralized
